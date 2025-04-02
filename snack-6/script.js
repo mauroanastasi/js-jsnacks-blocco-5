@@ -20,3 +20,11 @@ const primeZucchine = zucchine.filter((element)=>{
   return false
 })
 console.log(primeZucchine)
+
+const restoZucchine = zucchine.filter((element)=>{
+  if(element.length <= 15){
+    return true
+  }
+  return false
+})
+console.log(restoZucchine)
